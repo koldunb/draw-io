@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T14:40:59.963Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fr7-z1QB0K8ZV1gmXQXa" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-09T14:53:04.865Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gkNJatbyX2AX6Kc2aLsn" version="18.1.2" type="github">
   <diagram id="vmI7mMUzF1Ovgu6gkRTT" name="Page-1">
-    <mxGraphModel dx="2142" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2302" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-79" value="" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontSize=24;strokeColor=#1A1A1A;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="25" y="190" width="590" height="590" as="geometry" />
+        </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="700" y="200" width="770" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Store, mysql&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Store, mysql&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="710" y="220" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-5" value="promotion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
@@ -70,31 +73,22 @@
           <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-33" value="&lt;h1&gt;SRB-9781 Welcome Promotion&lt;/h1&gt;&lt;span data-metadata=&quot;&lt;!--(figmeta)eyJmaWxlS2V5IjoiYTVsaGJPWG9oTW1MTndGYm8xNE5kQSIsInBhc3RlSUQiOjE4MjY3NjkxMTcsImRhdGFUeXBlIjoic2NlbmUifQo=(/figmeta)--&gt;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;p&gt;.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="570" height="120" as="geometry" />
+          <mxGeometry x="35" y="90" width="570" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-35" value="&lt;pre&gt;GET {mobile-api}/v1/user/promotions&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="110" y="140" width="240" height="30" as="geometry" />
+          <mxGeometry x="80" y="360" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-39" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;[&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp; {&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;1&lt;/span&gt;,&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;type&quot;&lt;/span&gt;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;welcome_cashback&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;        &lt;span style=&quot;color: rgb(163, 21, 21); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;&lt;/span&gt;&lt;font color=&quot;#a31515&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;conditions&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(163, 21, 21); font-size: 12px; font-weight: normal;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;            &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;cashbackPercent&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;5&lt;/span&gt;,&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;            &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;maxCashbackAmount&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;50000&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp;},&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;userId&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;1&lt;/span&gt;,&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;startDate&quot;&lt;/span&gt;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;2022-08-09T09:03:34.595Z&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;endDate&quot;&lt;/span&gt;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;2022-09-09T09:03:34.595Z&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;....................................&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;&quot;&gt;]&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="40" y="220" width="250" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;return unused no expired promotions for user&lt;br&gt;&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#1A1A1A;fillColor=none;fontSize=18;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="180" width="300" height="50" as="geometry" />
+          <mxGeometry x="75" y="440" width="250" height="270" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Apply promotions worker [every hour]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="30" y="560" width="310" height="20" as="geometry" />
+          <mxGeometry x="70" y="865" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-44" value="1. &lt;font style=&quot;font-size: 18px;&quot;&gt;Fetch all&amp;nbsp;active&amp;nbsp; promotions&lt;/font&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="35" y="600" width="260" height="30" as="geometry" />
+          <mxGeometry x="65" y="900" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-45" value="2. Handle it step by step" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="35" y="650" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-46" value="When should we add welcome cashback promotion to the store?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="30" y="760" width="530" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-47" value="1. on user created?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="35" y="810" width="170" height="30" as="geometry" />
+          <mxGeometry x="65" y="930" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="XHVd93EIHzynzg2FaFqQ-54" target="XHVd93EIHzynzg2FaFqQ-52">
           <mxGeometry relative="1" as="geometry">
@@ -120,6 +114,9 @@
         <mxCell id="XHVd93EIHzynzg2FaFqQ-58" value="............................" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-54">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="XHVd93EIHzynzg2FaFqQ-63" target="XHVd93EIHzynzg2FaFqQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-63" value="promotion_apply_history" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1110" y="260" width="280" height="180" as="geometry">
             <mxRectangle x="860" y="350" width="160" height="30" as="alternateBounds" />
@@ -142,6 +139,18 @@
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-74" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;enum &lt;/span&gt;PromotionType {&lt;br&gt;  &lt;span style=&quot;color: rgb(152, 118, 170); font-style: italic;&quot;&gt;WELCOME_CASHBACK&lt;/span&gt;= &lt;span style=&quot;color: rgb(106, 135, 89);&quot;&gt;&#39;welcome-cashback&#39;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;// other type&lt;br&gt;&lt;/span&gt;}&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="700" y="990" width="470" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-80" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Mobile API&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-82" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;1. Get a user&#39;s active promotions to show it on FE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="35" y="270" width="415" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-83" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Path:&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="75" y="320" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-85" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Response example:&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="75" y="400" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
