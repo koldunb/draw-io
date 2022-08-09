@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T08:02:18.282Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2iLU3Sk8l8Y6GPMRvRme" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-09T09:13:08.067Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RSI2bEOcVxHoWhm5T-co" version="18.1.2" type="github">
   <diagram id="vmI7mMUzF1Ovgu6gkRTT" name="Page-1">
     <mxGraphModel dx="2142" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,24 +14,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-5" value="user_promotion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="850" y="280" width="280" height="180" as="geometry">
+          <mxGeometry x="850" y="280" width="280" height="240" as="geometry">
             <mxRectangle x="860" y="350" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-6" value="id, number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-7" value="used, boolean, default false" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-31" value="type, enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-8" value="amount, number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-7" value="used, boolean, [default false]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-14" value="user_id, number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-8" value="data, json" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
           <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XHVd93EIHzynzg2FaFqQ-17" value="end_date, date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-14" value="user_id, number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
           <mxGeometry y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-32" value="start_date, date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
+          <mxGeometry y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-17" value="end_date, date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-5">
+          <mxGeometry y="210" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-23" value="user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="850" y="570" width="280" height="150" as="geometry">
@@ -49,6 +55,15 @@
         </mxCell>
         <mxCell id="XHVd93EIHzynzg2FaFqQ-27" value="............................" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="XHVd93EIHzynzg2FaFqQ-23">
           <mxGeometry y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-33" value="&lt;h1&gt;SRB-9781 Welcome Promotion&lt;/h1&gt;&lt;span data-metadata=&quot;&lt;!--(figmeta)eyJmaWxlS2V5IjoiYTVsaGJPWG9oTW1MTndGYm8xNE5kQSIsInBhc3RlSUQiOjE4MjY3NjkxMTcsImRhdGFUeXBlIjoic2NlbmUifQo=(/figmeta)--&gt;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;p&gt;.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-35" value="&lt;pre&gt;GET /v1/user/promotions&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHVd93EIHzynzg2FaFqQ-39" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div&gt;[&lt;/div&gt;&lt;div&gt;&amp;nbsp; {&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;1&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;type&quot;&lt;/span&gt;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;welcome_cashback&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;used&quot;&lt;/span&gt;: &lt;span style=&quot;color: #0451a5;font-weight: bold;&quot;&gt;false&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;data&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;cashbackPercent&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;5&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;maxCashbackAmount&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;50000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;},&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;userId&quot;&lt;/span&gt;: &lt;span style=&quot;color: #098658;&quot;&gt;1&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;startDate&quot;&lt;/span&gt;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;2022-08-09T09:03:34.595Z&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #a31515;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;endDate&quot;&lt;/span&gt;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;2022-09-09T09:03:34.595Z&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;....................................&lt;/div&gt;&lt;div&gt;]&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="250" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
